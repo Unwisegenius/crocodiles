@@ -11,6 +11,7 @@
     font-size: 100%;
     line-height: 1em;
 }
+
 /*default styles for whole page*/
 body {
     color: #ffffff;
@@ -67,4 +68,54 @@ h4 {
     margin-bottom: 2.5rem;
     font-family: "amarante";
 }
-  
+    /* images*/
+    img {
+        max-width: 1228px;
+        width: 100%;
+        height: auto;
+
+        margin-bottom: 2rem;
+    }
+
+    /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align:left;
+    color: white;
+  }
+  /* Bottom left text */
+.bottom-left {
+    position:absolute;
+    bottom: 20px;
+    left: 4px;
+  }
+/* With Bruno Schulz Section*/
+.background-section {
+    background-color: #2B3C37;
+    padding: 4rem;
+    border-radius: 0px;
+}
+/*css grids*/
+.grid {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+/* Css grids column widths */
+.grid-col-third {
+    flex-basis: 33.33%;
+}
+.grid-col-twothirds {
+    flex-basis: 66.66%;
+}
+/* media queries */
+@media only screen and (max-width:1068px) {
+    .container {
+    margin: 0 24px 0 24px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+}
