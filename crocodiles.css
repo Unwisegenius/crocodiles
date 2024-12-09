@@ -17,20 +17,28 @@ body {
     color: #ffffff;
     border-color: black;
     background-color: #59292A;
+
 }
+
 /* content container to centre content */
 .container {
     max-width: 1020px;
     margin: 0 auto 0 auto;
 }
+
 /*default styling for headings*/
-h1, h2, h3, h4, h5, h6 
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Rakkas", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  /*specific sstyles*/
+}
+
+/*specific sstyles*/
 h1 {
     font-size: 4.25rem;
     margin-bottom: 2rem;
@@ -51,16 +59,18 @@ h4 {
     font-size: 1.75rem;
     margin-bottom: 0.2rem;
 }
+
 /* Paragraphs */
-  p {
+p {
     font-family: "Amarante";
     font-weight: 400;
     line-height: 1.5;
     font-size: medium;
     margin-bottom: 1.5rem;
     font-style: normal;
-  }
-  p.large {
+}
+
+p.large {
     font-weight: 400;
     font-style: italic;
     line-height: 1.5;
@@ -68,52 +78,151 @@ h4 {
     margin-bottom: 2.5rem;
     font-family: "amarante";
 }
-    /* images*/
-    img {
-        max-width: 1228px;
-        width: 100%;
-        height: auto;
 
-        margin-bottom: 2rem;
-    }
+/* images*/
+img {
+    max-width: 1228px;
+    width: 100%;
+    height: auto;
 
-    /* Container holding the image and the text */
+    margin-bottom: 2rem;
+}
+
+/* Container holding the image and the text */
 .container {
     position: relative;
-    text-align:left;
+    text-align: left;
     color: white;
-  }
-  /* Bottom left text */
+}
+
+/* Bottom left text */
 .bottom-left {
-    position:absolute;
+    position: absolute;
     bottom: 20px;
     left: 4px;
-  }
-/* With Bruno Schulz Section*/
+}
+
+/* With Bruno Schulz Section, Up Right Down Left*/
 .background-section {
     background-color: #2B3C37;
-    padding: 4rem;
-    border-radius: 0px;
+    padding: 30px 200px 30px 200px;
+
+
+}
+
+.bruno {
+    max-width: 916px;
+    max-height: 849px;
+    padding: 30px 0 30px 0px;
+    border-radius: 25px;
+    background-repeat: repeat;
+}
+
+/*about section class*/
+.About {
+    padding: 30px 150px 30px 150px;
+
+}
+
+/*august div class*/
+.august {
+    background-color: #E9E9E9;
+    font: 1.5rem;
+    color: #59292A;
+    padding: 30px 0 30px 0;
+}
+
+.august p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.august h2 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.august h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+/*market div class*/
+.market {
+    padding: 30px 30px 30px 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+.market p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.market h2 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.market h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+/*street div class*/
+.street {
+    background-color: #2B3C37;
+    padding: 30px 30px 30px 30px;
+}
+.street p{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+/*reading*/
+.reading{
+    padding: 30px 30px 30px 30px;
+
+}
+.reading p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.reading h2 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.reading h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
 }
 /*css grids*/
 .grid {
     display: flex;
-    gap: 24px;
+    gap: 14px;
     flex-direction: row;
 }
+
 /* Css grids column widths */
 .grid-col-third {
     flex-basis: 33.33%;
 }
+
 .grid-col-twothirds {
     flex-basis: 66.66%;
 }
+
 /* media queries */
 @media only screen and (max-width:1068px) {
     .container {
-    margin: 0 24px 0 24px;
+        margin: 0 24px 0 24px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .grid {
         flex-direction: column;
