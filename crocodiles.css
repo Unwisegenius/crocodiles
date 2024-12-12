@@ -206,7 +206,8 @@ img {
 }
 .august p {
     max-width: 1200px;
-  margin: 0 auto 0 auto;
+
+  padding: 0px 50px 0px 50px;
    
 }
 
