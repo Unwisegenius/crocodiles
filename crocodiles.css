@@ -26,6 +26,14 @@ body {
     margin: 0 auto 0 auto;
 }
 
+/* opening centre content */
+.opening {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+    align-self: auto;
+}
+
+
 /*default styling for headings*/
 h1,
 h2,
@@ -79,17 +87,40 @@ p.large {
     font-family: "amarante";
 }
 
-/* images*/
-img {
-    max-width: 1228px;
-    width: 100%;
-    height: auto;
 
-    margin-bottom: 2rem;
+
+/* Navigation bar css*/
+body {
+    margin: 0px;
 }
 
-/* Container holding the image and the text */
-.container {
+.navbar ul {
+    
+    list-style: none;
+    background-color: #59292A;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+.navbar a {
+    color: #E9E9E9;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #482223;
+}
+
+.navbar li {
+    float: left;
+}
+
+/* the street of crocodiles on an image */
+.opening {
     position: relative;
     text-align: left;
     color: white;
@@ -99,13 +130,22 @@ img {
 .bottom-left {
     position: absolute;
     bottom: 20px;
-    left: 4px;
+    left: 0px;
+}
+
+.opening {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 1728px;
 }
 
 /* With Bruno Schulz Section, Up Right Down Left*/
-.background-section {
+.with-bruno {
     background-color: #2B3C37;
-    padding: 30px 200px 30px 200px;
+    padding: 100px 200px 100px 200px;
 
 
 }
@@ -120,7 +160,40 @@ img {
 
 /*about section class*/
 .About {
-    padding: 30px 150px 30px 150px;
+    padding: 50px 150px 30px 150px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    padding: 0px 150px 0px 335px;
+    
+}
+
+.About p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
+
+}
+
+.About h2 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 0px 200px 30px 200px;
+}
+
+.About h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
 
 }
 
@@ -129,12 +202,12 @@ img {
     background-color: #E9E9E9;
     font: 1.5rem;
     color: #59292A;
-    padding: 30px 0 30px 0;
+    padding: 30px 30px 30px 30px;
 }
-
 .august p {
     max-width: 1200px;
-    margin: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
+   
 }
 
 .august h2 {
@@ -151,12 +224,14 @@ img {
 .market {
     padding: 30px 30px 30px 30px;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-  }
+    width: 50%;
+}
+
 .market p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -171,21 +246,24 @@ img {
     max-width: 1200px;
     margin: 0 auto 0 auto;
 }
+
 /*street div class*/
 .street {
     background-color: #2B3C37;
     padding: 30px 30px 30px 30px;
 }
-.street p{
+
+.street p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
 }
 
 /*reading*/
-.reading{
+.reading {
     padding: 30px 30px 30px 30px;
 
 }
+
 .reading p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -199,32 +277,4 @@ img {
 .reading h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
-}
-/*css grids*/
-.grid {
-    display: flex;
-    gap: 14px;
-    flex-direction: row;
-}
-
-/* Css grids column widths */
-.grid-col-third {
-    flex-basis: 33.33%;
-}
-
-.grid-col-twothirds {
-    flex-basis: 66.66%;
-}
-
-/* media queries */
-@media only screen and (max-width:1068px) {
-    .container {
-        margin: 0 24px 0 24px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .grid {
-        flex-direction: column;
-    }
 }
