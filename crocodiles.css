@@ -108,9 +108,9 @@ p.large {
 
 /* the street of crocodiles on an image */
 .dollhead img{
-    max-width: 1728px;
-    max-height: 1037px;
-    padding: 0px 0px 0px 00px;
+    max-width: 1455px;
+    max-height: 1040px;
+    padding: 0px 0px 0px 0px;
 }
 .opening {
     position: relative;
@@ -144,7 +144,7 @@ p.large {
 .bruno img{
     max-width: 916px;
     max-height: 849px;
-    padding: 30px 0 30px 0px;
+    padding: 30px 30px 30px 30px;
     border-radius: 10%;
     background-repeat: repeat;
 }
@@ -205,26 +205,37 @@ img {
 .august h2 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 0px 100px 20px 100px;
 }
 
 .august h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 0px 100px 20px 100px;
 }
 
-/*market div class*/
-.market {
-    padding: 30px 30px 30px 30px;
-}
-
-img {
+.august img {
     max-width: 1228px;
     max-height: 849px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    padding: 30px 110px 30px 15px;
+    width: 80%;
+    padding: 30px 110px 30px 100px;
+}
+/*market div class*/
+.market {
+    padding: 30px 30px 30px 30px;
+}
+
+.market img {
+    max-width: 1228px;
+    max-height: 849px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 30px 110px 30px 100px;
 }
 
 .market p {
