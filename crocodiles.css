@@ -162,10 +162,6 @@ p.large {
     width: 50%;
 }
 
-img {
-    padding: 0px 150px 0px 335px;
-    
-}
 
 .About p {
     max-width: 1200px;
@@ -225,7 +221,7 @@ img {
 }
 /*market div class*/
 .market {
-    padding: 30px 30px 30px 30px;
+    padding: 30px 100px 30px 100px;
 }
 
 .market img {
@@ -241,46 +237,79 @@ img {
 .market p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 0px 100px 20px 100px;
 }
 
 .market h2 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 0px 100px 20px 100px;
 }
 
 .market h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 0px 100px 20px 100px;
 }
 
 /*street div class*/
 .street {
     background-color: #2B3C37;
-    padding: 30px 30px 30px 30px;
+    padding: 0px 100px 30px 100px;
 }
-
+.street img{
+    max-width: 1500px;
+    max-height: 849px;
+    display: block;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px
+}
+   
 .street p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 20px 100px 20px 100px;
 }
-
+.street h1 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 30px 100px 30px 100px;
+}
+.street h2 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 30px 100px 30px 100px;
+}
+.street h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 30px 100px 30px 100px;
+}
 /*reading*/
 .reading {
-    padding: 30px 30px 30px 30px;
+    padding: 30px 100px 30px 100px;
 
 }
 
 .reading p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 10px 100px 10px 100px;
 }
 
 .reading h2 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 10px 100px 10px 100px;
 }
-
+.reading h4 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 10px 100px 10px 100px;
+}
 .reading h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
+    padding: 10px 100px 10px 100px;
 }
