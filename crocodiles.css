@@ -109,7 +109,7 @@ p.large {
 /* the street of crocodiles on an image */
 .dollhead img{
     max-width: 1455px;
-    max-height: 1040px;
+    max-height: 1200px;
     padding: 0px 0px 0px 0px;
 }
 .opening {
@@ -136,11 +136,13 @@ p.large {
 .with-bruno {
     background-color: #2B3C37;
     padding: 100px 200px 100px 200px;
-
-
 }
-
-
+.with-bruno h2{
+    text-align: right;
+}
+.with-bruno p.large {
+    text-align: right;
+}
 .bruno img{
     max-width: 916px;
     max-height: 849px;
