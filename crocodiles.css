@@ -78,14 +78,14 @@ p.large {
 /* Navigation bar css*/
 
 .navbar ul {
-    
+
     list-style: none;
     background-color: #59292A;
-   margin: 0 auto;
-   padding: 0;
-   display: flex;
-   justify-content: center;
-    
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
 }
 
 .navbar a {
@@ -94,9 +94,9 @@ p.large {
     padding: 20px;
     display: block;
     font-family: 'Rakkas';
-    font-size: 28px; /* Adjust font size as needed */
+    font-size: 28px;
     color: #E9E9E9;
-    
+
 }
 
 .navbar a:hover {
@@ -105,60 +105,92 @@ p.large {
 
 .navbar li {
 
-  margin: auto;
-  padding: 0px 30px;
+    margin: auto;
+    padding: 0px 30px;
 }
 
 /* the street of crocodiles on an image */
-.dollhead img{
-    max-width: 1455px;
-    max-height: 1200px;
-   object-fit: cover;
-   display: block;
-   margin: auto;
+.opening {
+    Position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.dollhead img {
+    width: 100%;
+    height: 102%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: none;
+    
 }
 
 
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: -140px;
+    bottom: 20px;
     left: 20px;
-    padding: 0px 0px 0px 0px;
-    margin: auto;
-color: #E9E9E9;
-font-size: large;
-font-family: "rakkas";
+    color: #E9E9E9;
+    font-size: large;
+    font-family: "rakkas";
+    z-index: 0;
 }
 
-.opening {
-    display: flex;
-    justify-content: center;
-}
 
 
 
 /* With Bruno Schulz Section, Up Right Down Left*/
 .with-bruno {
     background-color: #2B3C37;
-    padding: 100px 200px 100px 200px;
-    
+    color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+
 }
-.with-bruno h2{
-    max-width: 1200px;
-    text-align: left;
-    margin: 0 auto 0 auto;
-    padding: 0px 0px 30px 0px;
+
+.with-bruno h2 {
+    font-family: "rakkas";
+    font-size: 2.25rem;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0px 80px 0px 200px;
+    position: relative;
 }
+
+.with-bruno h2::after {
+    content: "";
+    position: absolute;
+    top: -52px;
+    right: 30px;
+    bottom: 50px;
+    left: 530px;
+    width: 7px;
+    height: 135px;
+    background-color: #E9E9E9;
+
+}
+
+.with-bruno .quote {
+    margin-left: 40px;
+    flex: 1;
+}
+
 .with-bruno p.large {
-    max-width: 1200px;
-    text-align: left;
-    margin: 0 auto 0 auto;
-    padding: 0px 100px 30px 100px;
+    font-family: "Amarante";
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 30px 200px 0px 0px;
 }
-.bruno img{
-    max-width: 916px;
-    max-height: 849px;
+
+/*bruno self portrait*/
+.bruno img {
+    max-width: 716px;
+    max-height: 649px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -209,12 +241,13 @@ font-family: "rakkas";
     color: #59292A;
     padding: 30px 100px 30px 100px;
 }
+
 .august p {
     max-width: 1200px;
 
-  padding: 0px 100px 0px 100px;
-  margin: auto;
-   
+    padding: 0px 100px 0px 100px;
+    margin: auto;
+
 }
 
 .august h2 {
@@ -238,6 +271,7 @@ font-family: "rakkas";
     width: 80%;
     padding: 30px 110px 30px 100px;
 }
+
 /*market div class*/
 .market {
     padding: 30px 100px 30px 100px;
@@ -276,7 +310,8 @@ font-family: "rakkas";
     background-color: #2B3C37;
     padding: 0px 100px 30px 100px;
 }
-.street img{
+
+.street img {
     max-width: 1500px;
     max-height: 849px;
     display: block;
@@ -285,27 +320,31 @@ font-family: "rakkas";
     margin-right: auto;
     margin-left: auto;
 }
-   
+
 .street p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 20px 100px 20px 100px;
 }
+
 .street h1 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 30px 100px 30px 100px;
 }
+
 .street h2 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 30px 100px 30px 100px;
 }
+
 .street h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 30px 100px 30px 100px;
 }
+
 /*reading*/
 .reading {
     padding: 30px 100px 30px 100px;
@@ -323,11 +362,13 @@ font-family: "rakkas";
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
+
 .reading h4 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
+
 .reading h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
