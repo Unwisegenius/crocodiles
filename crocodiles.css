@@ -94,7 +94,7 @@ p.large {
     padding: 20px;
     display: block;
     font-family: 'Rakkas';
-    font-size: 28px;
+    font-size: 22px;
     color: #E9E9E9;
 
 }
@@ -373,4 +373,12 @@ p.large {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
+}
+/*responsive*/
+@media (max-width: 1245px){
+    h1{
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+        font-weight: 900;
+    }
 }
