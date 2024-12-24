@@ -835,6 +835,56 @@ p.large {
     padding: 35px 0px 0px 50px;
 }
 }
+/*350px*/
+@media (max-width: 400px) {
+    .with-bruno {
+        background-color: #2B3C37;
+        color: #E9E9E9;
+        display: flex;
+        align-items: center;
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .with-bruno h2 {
+        font-family: "rakkas";
+        font-size: 1rem;
+        font-weight: bold;
+        white-space: nowrap;
+        margin: -75px;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+}
+@media (max-width: 400px) {
+.with-bruno h2::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    bottom: 50px;
+    left: 130px;
+    width: 5px;
+    height: 75px;
+    background-color: #E9E9E9;
+
+}
+}
+@media (max-width: 400px) {
+.with-bruno .quote {
+    margin-left: 0px;
+    flex: 1;
+}
+}
+@media (max-width: 400px) {
+.with-bruno p.large {
+    font-family: "Amarante";
+    font-size: 0.4rem;
+    line-height: 1.5;
+    padding: 35px 0px 0px 100px;
+}
+}
 /*about the author responsive px*/
 @media (max-width: 1245px){
 .About {
