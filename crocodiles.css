@@ -1370,30 +1370,4 @@ p.large {
         padding: 10px;
     }
 }
-/*2560px Responsiveness*/
-/*opening 2560px*/
-@media (max-width: 2560px) {
-    .dollhead img {
-        width: 148.15%;
-        height: 150%;
-        object-fit: cover;
-        display: block;
-        margin: auto;
-        border: none;
-    }
-    }
-    @media (max-width: 2560px) {
-        h1 {
-            font-size: 7rem;
-            line-height: 7rem;
-            margin-bottom: 0rem;
-            font-weight: 900;
-        }
-    }
-    @media (max-width: 2560px) {
-        .navbar a {
-            font-size: 3rem;
-            padding: 30px 0px 30px 0px;
-        }
-    }
-    
+
