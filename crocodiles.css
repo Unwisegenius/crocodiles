@@ -434,15 +434,21 @@ p.large {
 .menu-button{
     display: flex;
     position:absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     z-index: 998;
 }
 }
-@media(max-width:400px){
+@media(max-width:768px){
     .sidebar{
         width: 100%;
+        opacity: 100%;
         ;
+    }
+}
+@media(min-width:769px){
+    .sidebar{
+      opacity: 0%;
     }
 }
 /*with bruno section*/
