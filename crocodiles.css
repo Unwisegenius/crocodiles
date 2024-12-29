@@ -376,6 +376,16 @@ p.large {
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
+.reading a{
+        color: white;
+
+}
+.reading a:visited {
+    color: green;
+  }
+.reading a:hover {
+    color: grey;
+}
 
 /*responsive*/
 

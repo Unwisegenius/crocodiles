@@ -13,7 +13,11 @@
 
     <nav class="navbar">
         <ul class="sidebar">
-            <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a></li>
+            <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg></a></li>
             <li> <a href="#About">About The Author</a></li>
             <li> <a href="#august">Chapter one: August</a></li>
             <li> <a href="#market">Market Square</a></li>
@@ -27,12 +31,12 @@
             <li class="hideOnMobile"> <a href="#street">Stryiska Street</a></li>
             <li class="hideOnMobile"> <a href="#reading">Further Reading</a></li>
             <li class='menu-button' onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
-                    </svg></a></li>
+                    viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg></a></li>
         </ul>
     </nav>
 </header>
@@ -235,30 +239,35 @@
         <section id="reading">
             <div class="reading">
                 <h2>Further Readings</h2>
-                <p>The Street of Crocodiles and Other Stories Reader’s Guide, Penguin random House
-                    (https://www.penguinrandomhouse.com/books/293938/the-street-of-crocodiles-and-other-stories-by-bruno-schulz-foreword-by-jonathan-safran-foer-introduction-by-david-a-goldfarb-translated-by-celina-wieniewska/9780143105145/readers-guide/)
+                <p>
+                    <a
+                        href="https://www.penguinrandomhouse.com/books/293938/the-street-of-crocodiles-and-other-stories-by-bruno-schulz-foreword-by-jonathan-safran-foer-introduction-by-david-a-goldfarb-translated-by-celina-wieniewska/9780143105145/readers-guide/">The
+                        Street of Crocodiles and Other Stories Reader’s Guide, Penguin random House</a>
                 </p>
-                <p>Bruno Schulz: An Artist, A Murder, and the Hijacking of History review – an
-                    extraordinary mind and a
-                    cruel death, The Guardian
-                    (https://www.theguardian.com/books/2023/may/14/bruno-schulz-an-artist-a-murder-and-the-hijacking-of-history-benjamin-balint-review-extraordinary-mind-cruel-death)
+                <p>
+                    <a
+                        href=https://www.theguardian.com/books/2023/may/14/bruno-schulz-an-artist-a-murder-and-the-hijacking-of-history-benjamin-balint-review-extraordinary-mind-cruel-death>Bruno
+                        Schulz: An Artist, A Murder, and the Hijacking of History review – an
+                        extraordinary mind and a
+                        cruel death, The Guardian</a>
                 </p>
                 <h3>Code and design:</h3>
                 <h4>Jared Russell </h4>
                 <h3>Images:</h3>
-                <p>The Lost Doll - Patrick Hendry -
-                    https://unsplash.com/photos/closeup-photo-of-doll-pBb4HvRpglo</p>
+                <p>
+                    <a href=https://unsplash.com/photos/closeup-photo-of-doll-pBb4HvRpglo>The Lost Doll - Patrick Hendry</a>
+                </p>
                 <p>Illustration credits: Self portrait & illustration by Bruno Schulz, public domain
                     via Wikimedia Commons
                 </p>
-                <p>Jenia Flerman - Cozy Place -
-                    https://unsplash.com/photos/a-man-standing-in-front-of-a-building-at-night-5Z9LOqgOl-g
+                <p>
+                    <a href=https://unsplash.com/photos/a-man-standing-in-front-of-a-building-at-night-5Z9LOqgOl-g>Jenia Flerman - Cozy Place</a>
                 </p>
-                <p>Annie Spratt - Fresh fruit and veg stall -
-                    https://unsplash.com/photos/man-in-fruit-market-kr_88BakygA
+                <p>
+                   <a href="https://unsplash.com/photos/man-in-fruit-market-kr_88BakygA"> Annie Spratt - Fresh fruit and veg stall</a>
                 </p>
-                <p>Aaron Chavez -
-                    https://unsplash.com/photos/empty-street-between-buildings-during-daytime-TGSojbIny-8
+                <p>
+                    <a href="https://unsplash.com/photos/empty-street-between-buildings-during-daytime-TGSojbIny-8">Aaron Chavez - Empty street between buildings</a>
                 </p>
 
             </div>
@@ -268,12 +277,12 @@
 
     </main>
     <script>
-        function showSidebar(){
+        function showSidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
         }
-        function hideSidebar(){
-             const sidebar = document.querySelector('.sidebar')
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
     </script>
