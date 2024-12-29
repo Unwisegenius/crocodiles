@@ -419,6 +419,19 @@ p.large {
         padding: 10px 0px 10px 0px;
     }
 }
+@media (max-width: 375px) {
+    .navbar a {
+        font-size: 0.35rem;
+        padding: 5px 0px 5px 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar a {
+        font-size: 0.1rem;
+        padding: 5px 0px 5px 0px;
+    }
+}
 
 
 /*with bruno section*/
@@ -1224,7 +1237,7 @@ p.large {
     .About p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 0px 200px 30px 200px;
         font-size: 1rem;
     }
 }
@@ -1233,19 +1246,11 @@ p.large {
     .About h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 200px 20px 200px;
         font-size: 1.5rem;
     }
 }
 
-@media (max-width: 1300px) {
-    .About h2 {
-        max-width: 1200px;
-        margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
-        font-size: 1.7rem;
-    }
-}
 
 /*about 1100px*/
 @media (max-width: 1100px) {
