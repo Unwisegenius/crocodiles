@@ -12,13 +12,27 @@
 <header>
 
     <nav class="navbar">
-
-        <ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a></li>
             <li> <a href="#About">About The Author</a></li>
             <li> <a href="#august">Chapter one: August</a></li>
             <li> <a href="#market">Market Square</a></li>
             <li> <a href="#street">Stryiska Street</a></li>
             <li> <a href="#reading">Further Reading</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"> <a href="#About">About The Author</a></li>
+            <li class="hideOnMobile"> <a href="#august">Chapter one: August</a></li>
+            <li class="hideOnMobile"> <a href="#market">Market Square</a></li>
+            <li class="hideOnMobile"> <a href="#street">Stryiska Street</a></li>
+            <li class="hideOnMobile"> <a href="#reading">Further Reading</a></li>
+            <li class='menu-button' onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg></a></li>
         </ul>
     </nav>
 </header>
@@ -253,4 +267,16 @@
 
 
     </main>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+             const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 </body>
+
+</html>

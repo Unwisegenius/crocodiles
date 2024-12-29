@@ -108,6 +108,35 @@ p.large {
     padding: 0px 30px;
 }
 
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 200px;
+    z-index: 999;
+    background-color: #59292A;
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 50%;
+}
+.sidebar a {
+    width: 100%;
+}
+.sidebar a:hover {
+    background-color: #482223
+}
+.menu-button{
+    display: none;
+
+}
+
 /* the street of crocodiles on an image */
 .opening {
     Position: relative;
@@ -218,7 +247,7 @@ p.large {
     background-color: #E9E9E9;
     font: 1.5rem;
     color: #59292A;
-   
+
 }
 
 .august p {
@@ -284,7 +313,7 @@ p.large {
 /*street div class*/
 .street {
     background-color: #2B3C37;
-   
+
 }
 
 .street img {
@@ -396,44 +425,26 @@ p.large {
     }
 }
 
-@media (max-width: 768px) {
-    .navbar a {
-        font-size: 1rem;
-        font-weight: 900;
-        padding: 20px 0px 20px 15px;
-    }
 
+/*side bar menu*/
+@media(max-width:768px){
+.hideOnMobile{
+    display: none;
 }
-
-@media (max-width: 600px) {
-    .navbar a {
-        font-size: 0.6rem;
-        font-weight: 900;
-        padding: 10px;
-    }
+.menu-button{
+    display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 998;
 }
-
-@media (max-width: 425px) {
-    .navbar a {
-        font-size: 0.5rem;
-        padding: 10px 0px 10px 0px;
+}
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+        ;
     }
 }
-@media (max-width: 375px) {
-    .navbar a {
-        font-size: 0.35rem;
-        padding: 5px 0px 5px 0px;
-    }
-}
-
-@media (max-width: 320px) {
-    .navbar a {
-        font-size: 0.1rem;
-        padding: 5px 0px 5px 0px;
-    }
-}
-
-
 /*with bruno section*/
 @media (max-width: 1245px) {
     .with-bruno {
@@ -770,6 +781,7 @@ p.large {
 
     }
 }
+
 /*with bruno 370px*/
 @media (max-width: 370px) {
     .with-bruno {
@@ -820,7 +832,7 @@ p.large {
         font-family: "Amarante";
         font-size: 0.4rem;
         line-height: 1.5;
- 
+
     }
 }
 
@@ -1011,7 +1023,7 @@ p.large {
     .market p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding:10px 50px 20px 50px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -1295,7 +1307,7 @@ p.large {
     .About h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding:10px 50px 20px 50px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1344,7 +1356,7 @@ p.large {
         padding: 10px 50px 10px 50px;
         font-size: 0.6rem;
         line-height: 1rem;
-        
+
     }
 }
 
@@ -1375,4 +1387,3 @@ p.large {
         padding: 10px;
     }
 }
-
