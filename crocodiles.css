@@ -1361,8 +1361,8 @@ p.large {
     .About p {
         max-width: 100%;
         margin: 0 auto 0 auto;
-        padding: 10px 50px 20px 50px;
-        font-size: 0.75rem;
+        padding: 10px 50px 10px 50px;
+        font-size: 0.6rem;
         line-height: 1rem;
         
     }
