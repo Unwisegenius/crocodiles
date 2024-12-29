@@ -118,7 +118,7 @@ p.large {
 
 .dollhead img {
     width: 100%;
-    height: 102%;
+    height: 100%;
     object-fit: cover;
     display: block;
     margin: auto;
@@ -260,7 +260,7 @@ p.large {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 30px 110px 30px 100px;
+    padding: 30px 100px 30px 100px;
 }
 
 .market p {
@@ -816,7 +816,7 @@ p.large {
     .august p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -825,7 +825,7 @@ p.large {
     .august h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -834,7 +834,7 @@ p.large {
     .august h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -843,7 +843,7 @@ p.large {
     .august img {
         max-width: 928px;
         max-height: 549px;
-        padding: 0px 10px 20px 0px;
+        padding: 10px 50px 20px 50px;
     }
 }
 
@@ -852,7 +852,7 @@ p.large {
     .market p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -861,7 +861,7 @@ p.large {
     .market h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -870,7 +870,7 @@ p.large {
     .market h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -879,7 +879,7 @@ p.large {
     .market img {
         max-width: 928px;
         max-height: 549px;
-        padding: 0px 10px 20px 0px;
+        padding: 0px 0px 20px 0px;
     }
 }
 
@@ -888,7 +888,7 @@ p.large {
     .street p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -897,7 +897,7 @@ p.large {
     .street h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -906,7 +906,7 @@ p.large {
     .street h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -915,7 +915,7 @@ p.large {
     .street img {
         max-width: 928px;
         max-height: 549px;
-        padding: 0px 10px 20px 0px;
+        padding: 0px 0px 20px 0px;
     }
 }
 
@@ -925,7 +925,7 @@ p.large {
     .reading p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -934,7 +934,7 @@ p.large {
     .reading h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -943,7 +943,7 @@ p.large {
     .reading h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -952,7 +952,7 @@ p.large {
     .reading h4 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.2rem;
     }
 }
@@ -962,7 +962,7 @@ p.large {
     .august p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -971,7 +971,7 @@ p.large {
     .august h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -980,7 +980,7 @@ p.large {
     .august h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 10px 50px;
         font-size: 1.7rem;
     }
 }
@@ -998,17 +998,8 @@ p.large {
     .market p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding:10px 50px 20px 50px;
         font-size: 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .market h3 {
-        max-width: 1200px;
-        margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
-        font-size: 1.5rem;
     }
 }
 
@@ -1016,7 +1007,7 @@ p.large {
     .market h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 20px 50px 10px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1034,25 +1025,17 @@ p.large {
     .street p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
 
-@media (max-width: 768px) {
-    .street h3 {
-        max-width: 1200px;
-        margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
-        font-size: 1.5rem;
-    }
-}
 
 @media (max-width: 768px) {
     .street h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 10px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1071,7 +1054,7 @@ p.large {
     .reading p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -1080,7 +1063,7 @@ p.large {
     .reading h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.5rem;
     }
 }
@@ -1089,7 +1072,7 @@ p.large {
     .reading h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1098,7 +1081,7 @@ p.large {
     .reading h4 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1.2rem;
     }
 }
@@ -1269,7 +1252,7 @@ p.large {
     .About p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 120px 20px 120px;
         font-size: 1rem;
     }
 }
@@ -1278,26 +1261,18 @@ p.large {
     .About h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 120px 20px 120px;
         font-size: 1.5rem;
     }
 }
 
-@media (max-width: 1100px) {
-    .About h2 {
-        max-width: 1200px;
-        margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
-        font-size: 1.7rem;
-    }
-}
 
 /*about 850px*/
 @media (max-width: 850px) {
     .About p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 100px 20px 100px;
         font-size: 1rem;
     }
 }
@@ -1306,7 +1281,7 @@ p.large {
     .About h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 100px 20px 100px;
         font-size: 1.5rem;
     }
 }
@@ -1315,7 +1290,7 @@ p.large {
     .About h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding:10px 50px 20px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1325,7 +1300,7 @@ p.large {
     .About p {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 30px 0px;
+        padding: 10px 50px 20px 50px;
         font-size: 1rem;
     }
 }
@@ -1334,7 +1309,7 @@ p.large {
     .About h3 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 0px 50px;
         font-size: 1.5rem;
     }
 }
@@ -1343,7 +1318,7 @@ p.large {
     .About h2 {
         max-width: 1200px;
         margin: 0 auto 0 auto;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 50px 0px 50px;
         font-size: 1.7rem;
     }
 }
@@ -1352,7 +1327,7 @@ p.large {
     .bruno img {
         max-width: 516px;
         max-height: 449px;
-        padding: 0px 0px 20px 0px;
+        padding: 20px 0px 20px 0px;
     }
 }
 
@@ -1393,5 +1368,242 @@ p.large {
         max-width: 316px;
         max-height: 249px;
         padding: 10px;
+    }
+}
+/*2560px Responsiveness*/
+/*opening 2560px*/
+@media (max-width: 2560px) {
+.dollhead img {
+    width: 148.15%;
+    height: 150%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: none;
+}
+}
+@media (max-width: 2560px) {
+    h1 {
+        font-size: 7rem;
+        line-height: 7rem;
+        margin-bottom: 0rem;
+        font-weight: 900;
+    }
+}
+@media (max-width: 2560px) {
+    .navbar a {
+        font-size: 3rem;
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+/*with bruno 2560px*/
+@media (max-width: 2560px) {
+    .with-bruno {
+        background-color: #2B3C37;
+        color: #E9E9E9;
+        display: flex;
+        align-items: center;
+        padding: 20px 75px;
+    }
+}
+
+@media (max-width: 2560px) {
+    .with-bruno h2 {
+        font-family: "rakkas";
+        font-size: 3rem;
+        font-weight: bold;
+        white-space: nowrap;
+        margin: -70px;
+        padding: 0px 0px 0px 20px;
+        position: relative;
+    }
+}
+
+@media (max-width: 2560px) {
+    .with-bruno h2::after {
+        content: "";
+        position: absolute;
+        top: -15px;
+        right: 30px;
+        bottom: 55px;
+        left: 400px;
+        width: 10px;
+        height: 75px;
+        background-color: #E9E9E9;
+
+    }
+}
+
+@media (max-width: 2560px) {
+    .with-bruno .quote {
+        margin-left: 0px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 2560px) {
+    .with-bruno p.large {
+        font-family: "Amarante";
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 30px 0px 0px 110px;
+
+    }
+}
+/*about 2560px*/
+@media (max-width: 2560px) {
+    .About p {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 300px 30px 300px;
+        font-size: 2rem;
+        line-height: 3rem;
+        
+    }
+}
+@media (max-width: 2560px) {
+    .About h3 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 300px 30px 300px;
+        font-size: 3rem;
+    }
+}
+@media (max-width: 2560px) {
+    .bruno img {
+        position: relative;
+        margin: 0 auto 0 auto;
+        max-width: 1116px;
+        max-height: 949px;
+        padding: 30px;
+    }
+}
+/*august 2560*/
+@media (max-width: 2560px) {
+    .august p {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .august h3 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 10px 200px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .august h2 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 20px 200px 10px 200px;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .august img {
+        max-width: 150%;
+        max-height: 150%;
+        padding: 0px 0px 10px 0px;
+    }
+}
+/*market 2560*/
+@media (max-width: 2560px) {
+    .market p {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .market h2 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 30px 300px 10px 200px;
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width: 2560px) {
+    .market img {
+        max-width: 150%;
+        max-height: 150%;
+        padding: 0px 0px 10px 0px;
+    }
+}
+/*street 2560*/
+@media (max-width: 2560px) {
+    .street p {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .street h2 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 30px 300px 10px 200px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .street img {
+        max-width: 150%;
+        max-height: 150%;
+        padding: 0px 0px 10px 0px;
+    }
+}
+/*reading 2560px*/
+@media (max-width: 2560px) {
+    .reading p {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .reading h3 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .reading h2 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 2560px) {
+    .reading h4 {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 10px 200px 30px 200px;
+        font-size: 3rem;
     }
 }
