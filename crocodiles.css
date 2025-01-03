@@ -111,8 +111,7 @@ p.large {
 .sidebar {
     position: fixed;
     top: 0;
-    left: -200px;
-    /* so it starts offscreen */
+    left: -200px; /* so it starts offscreen */
     height: 50vh;
     width: 200px;
     z-index: 999;
@@ -145,7 +144,7 @@ p.large {
     padding: 10px 10px 10px 0px;
 }
 
-/* the street of crocodiles on an image */
+/* the street of crocodiles title on an image */
 .opening {
     Position: relative;
     display: inline-block;
@@ -156,14 +155,12 @@ p.large {
 .dollhead img {
     width: 100%;
     height: 100%;
-
     display: block;
   
 
 }
 
-
-/* Bottom left text */
+/* Bottom left text for tsoc image */
 .bottom-left {
     position: absolute;
     bottom: 20px;
@@ -177,7 +174,7 @@ p.large {
 
 
 
-/* With Bruno Schulz Section, Up Right Down Left*/
+/* With Bruno Schulz Section, Padding = Up Right Down Left*/
 .with-bruno {
     background-color: #2B3C37;
     color: #E9E9E9;
@@ -198,7 +195,7 @@ p.large {
 }
 
 .with-bruno h2::after {
-    content: "";
+    content: ""; /*this creates the white line for the quote*/
     position: absolute;
     top: -52px;
     right: 30px;
@@ -234,8 +231,7 @@ p.large {
     background-repeat: repeat;
 }
 
-/*about section class*/
-
+/*about section div class*/
 
 .About p {
     max-width: 1200px;
@@ -357,47 +353,40 @@ p.large {
     padding: 30px 100px 30px 100px;
 }
 
-/*reading*/
-
+/*reading div class*/
 
 .reading p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
-
 .reading h2 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 20px 100px 10px 100px;
 }
-
 .reading h4 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
-
 .reading h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 100px 10px 100px;
 }
-
 .reading a {
     color: white;
 
 }
-
 .reading a:visited {
     color: green;
 }
-
 .reading a:hover {
     color: grey;
 }
 
-/*responsive*/
+/*responsive design*/
 
 /*preset texts 1245px*/
 @media (max-width: 1245px) {
