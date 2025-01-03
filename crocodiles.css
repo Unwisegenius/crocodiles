@@ -156,10 +156,9 @@ p.large {
 .dollhead img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+
     display: block;
-    margin: auto;
-    border: none;
+  
 
 }
 
@@ -1464,4 +1463,62 @@ p.large {
         max-height: 249px;
         padding: 10px;
     }
+}
+/*responsive 2560px*/
+/*opening title 2560px*/
+@media (min-width: 2560px){
+    .dollhead {
+        max-width: 2560px;
+    max-height: 2319px;
+    display: block;
+    width: 150%;
+    padding: 0px 0px 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
+      
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #E9E9E9;
+        font-size: xx-large;
+        font-family: "rakkas";
+        z-index: 0;
+    }
+    
+}
+/* Navigation bar css 2560px*/
+@media (min-width: 2560px){
+.navbar ul {
+
+    list-style: none;
+    background-color: #59292A;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a {
+    color: #E9E9E9;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    font-family: 'Rakkas';
+    font-size: 42px;
+    color: #E9E9E9;
+
+}
+
+.navbar a:hover {
+    background-color: #482223;
+}
+
+.navbar li {
+
+    margin: auto;
+    padding: 0px 30px;
+}
 }
